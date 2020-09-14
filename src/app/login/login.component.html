@@ -1,0 +1,43 @@
+
+<div class="one">
+    <div align="center">
+    <br><br><br><br><br>
+<form [formGroup] ="form" (ngSubmit)="func()">
+    <label class="two">Login</label> 
+    <div><br>
+    <label>Username:</label>&nbsp;
+    <input type="text" placeholder="enter username"
+    formControlName="username"/>
+    </div>
+<br>
+    <div>
+        <label>Password:</label> &nbsp;
+        <input type="text" placeholder="enter Password"
+        formControlName="password"/>
+     </div>
+    
+     <br>
+     <div>
+         <button type="submit" class="btn btn-primary">
+         login</button>&nbsp;&nbsp;&nbsp;&nbsp;
+         <button type="reset" class="btn btn-danger">Clear</button>   
+     </div>
+    </form>
+</div>
+<!-- <div class="one">
+<table class="table table-striped table-hover">
+<thead>
+<tr>
+    <th>username</th>
+    <th>password</th>
+</tr>
+</thead>
+<tbody>
+    <tr *ngFor="let s of login">
+        <td>{{s.username}}</td>
+        <td>{{s.password}}</td>
+    </tr>
+</tbody> 
+</table>
+</div> -->
+</div>
