@@ -1,0 +1,22 @@
+<div style="text-align: center;">
+    <br>
+    <font color="black" size="50">USER LOGIN DETAILS</font>
+</div>
+<div class="jumbotron" style="text-align: center;">
+<table class="bg-primary table table-bordered 
+table-striped table-hover">
+<thead>
+
+<tr>
+    <th>username</th>
+    <th>password</th>
+</tr>
+</thead>
+<tbody>
+    <tr *ngFor="let s of login">
+        <td>{{s.username}}</td>
+        <td>{{s.password}}</td>
+    </tr>
+</tbody> 
+</table>
+</div> 

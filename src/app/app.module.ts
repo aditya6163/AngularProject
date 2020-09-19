@@ -9,6 +9,9 @@ import { SignupComponent } from './signup/signup.component';
 import { DataService } from './data.service';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CartComponent } from './cart/cart.component';
+import { LogindashboardComponent } from './logindashboard/logindashboard.component';
+import { AdminComponent } from './admin/admin.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +19,9 @@ import { CartComponent } from './cart/cart.component';
     LoginComponent,
     SignupComponent,
     HomepageComponent,
-    CartComponent
+    CartComponent,
+    LogindashboardComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
